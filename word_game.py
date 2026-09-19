@@ -31,7 +31,7 @@ while attempt < 6:
     attempt = attempt +1
     print ("Attempts Left:", 6 - attempt)
     if attempt == 6: 
-        print ("Game Over!")
+        print ("Game Over!", "Coorect Word was : ", secret_word)
     
     
 #print(guess)
